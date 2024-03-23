@@ -346,6 +346,9 @@ def main():
     # Начальный рекорд
     highest_score = 0
     # Основной игровой цикл.
+    bad_apples = [bad_apple, bad_apple_two, bad_apple_three]
+    print(bad_apples[0].position)
+
     while True:
         # Обработка нажатия клавиш.
         handle_keys(snake)
